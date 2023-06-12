@@ -2,7 +2,7 @@ const squares= document.querySelectorAll('.squares')
 var score= document.querySelector('.score')
 var time = document.querySelector('.time')
 let hitposition
-let currentTime=5
+let currentTime=60
 let result = 0
 function randomSquare(){
     for(var i=0; i<9; i++){
